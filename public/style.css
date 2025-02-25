@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+/* Cabeçalho */
+header{
+    background-color: #204b5e;
+    color: #fbea80;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 75% 25%;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    object-fit: cover;
+    padding: 0.8em;
+    border-radius: 1.5em;
+    width: 150px;
+    margin-right: 2em;
+}
+
+span{
+    margin-right: 5px;
+}
+
+header a{
+    color: #fbea80;
+    transition: transform 0.3s ease, color 0.3s ease;
+    display: inline-block;
+}
+
+header a:hover{
+    color: #daca5f;
+    transform: scale(1.08);
+}
+
+.descricao{
+    display: flex;
+    align-items: center;
+}
+
+.descricao span{
+    font-size: 1.8em;
+}
+
+.descricao p{
+    color: #daca5f;
+    display: block;
+    font-size: 14px;
+}
+
+.informacoes{
+    display: flex;
+    align-items: center;
+}
+
+.redesSociais{
+    padding-bottom: 0.5em;
+    font-size: 12px;
+}
+
+/* Conteudo */
+
+main{
+    display: grid;
+    grid-template-columns: 55% 45%; 
+    color: #1f312f;
+}
+
+main h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main li{
+    padding-bottom: 0.8em;
+}
+
+.qualificacoes{
+    background-color: #e9e0d1;
+    padding: 5em;
+}
+
+.historico{
+    padding: 6em;
+    background-color: #91a398;
+}
+
+.historico a{
+    color: #fcfcba;
+    transition: color 0.3s ease;
+}
+
+.historico a:hover{
+    color: #d3d3a0;
+}
+
+/* Rodapé */
+
+footer{
+    background-color: #204b5e;
+    height: 1.5em;
+}

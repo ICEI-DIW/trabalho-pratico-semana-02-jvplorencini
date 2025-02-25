@@ -3,7 +3,7 @@
 # template-diw-20251-semana-02
 
 ## Informações Gerais
-- Nome: 
-- Matricula:
+- Nome: João Vitor Porto Lorencini
+- Matricula: 892376
 
 ## Print da tela da página criad
