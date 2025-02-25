@@ -7,3 +7,4 @@
 - Matricula: 892376
 
 ## Print da tela da página criad
+<img src="prints/Print.png" alt="print da tela da pagina do curriculo">
